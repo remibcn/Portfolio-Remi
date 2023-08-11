@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineMenu, AiOutlineHome, AiTwotoneAccountBook }  from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineHome }  from 'react-icons/ai'
 import { GrProjects } from 'react-icons/gr'
 import { BsPerson } from 'react-icons/bs'
 
@@ -19,35 +19,21 @@ const Sidenav = () => {
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-200'
                 > 
                     <AiOutlineHome size={20} />
-                    <span className='pl-4'>Page d'acceuil</span>
+                    <span className='pl-4'>Page acceuil</span>
                 </a>
                 <a 
-                href="#main" 
+                href="#projects" 
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-200'
                 > 
                     <GrProjects size={20} />
                     <span className='pl-4'>Projets</span>
                 </a>
                 <a 
-                href="#main" 
+                href="#person" 
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-200'
                 > 
                     <BsPerson size={20} />
                     <span className='pl-4'>Moi</span>
-                </a>
-                <a 
-                href="#main" 
-                className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-200'
-                > 
-                    <AiOutlineHome size={20} />
-                    <span className='pl-4'>Home</span>
-                </a>
-                <a 
-                href="#main" 
-                className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-200'
-                > 
-                    <AiOutlineHome size={20} />
-                    <span className='pl-4'>Home</span>
                 </a>
             </div>
         ) : (
@@ -58,13 +44,16 @@ const Sidenav = () => {
                 <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-300 '>
                     <AiOutlineHome size={20} /> 
                 </a>
+                <a href='#projets' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-300 '>
+                    <GrProjects size={20} /> 
+                </a>
+                <a href='#person' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-300 '>
+                    <BsPerson size={20} /> 
+                </a>
             </div>
         </div>
-
-
-
     </div>
   );
 };
 
-export default Sidenav
+export default Sidenav;
