@@ -18,7 +18,7 @@ const Main = () => {
               sequence={[
                 'un developpeur web',
                 1000,
-                'a la recherche d&apos;une alternance',
+                "a la recherche d'une alternance",
                 2000,
               ]}
               wrapper='div'
