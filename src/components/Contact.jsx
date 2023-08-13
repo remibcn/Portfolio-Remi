@@ -28,7 +28,7 @@ const Contact = () => {
                 <textarea className='border-2 rounded-lg p-3 border-gray-300' rows="10" type='text' name='name'></textarea>
             </div>
             <button className='bg-[#001b5e] text-gray-100 w-full p-4 rounder-lg'>
-                 Envoyer un message 
+                 Envoyer un message !
             </button>
       </form>
     </div>

@@ -20,7 +20,7 @@ const Workitem = ({year, titre, durée, détails}) => {
 export default Workitem;
 
 Workitem.propTypes = {
-  year: PropTypes.number,
+  year: PropTypes.string,
   titre: PropTypes.string,
   durée: PropTypes.number,
   détails: PropTypes.string,
