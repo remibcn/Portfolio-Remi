@@ -40,7 +40,7 @@ const Sidenav = () => {
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 eas-in duration-200'
                 > 
                     <BsPerson size={20} />
-                    <span className='pl-4'>Moi</span>
+                    <span className='pl-4'>Contact</span>
                 </a>
             </div>
         ) : (
