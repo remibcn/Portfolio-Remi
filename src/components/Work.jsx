@@ -4,19 +4,19 @@ import Workitem from './Workitem'
 const data = [
     {
     year: '2022/2023',
-    titre: 'Formation O Clock',
+    titre: "Formation O'Clock",
     durée: '6 mois',
-    détails: "Formation de 6 mois en developpement web (Javascript, React, Rtk, Php, Mysql) + réalisation d'un projet de 1 mois en groupe de 5 (2 fronts et 3 backs)",
+    détails: "Formation de 6 mois en developpement web (Javascript, React, Rtk, Php, Mysql) avec une spécialisation en Front d'un mois en utilisant React + réalisation d'un projet de 1 mois en groupe de 5 (2 fronts et 3 backs)",
     },
     {
-        year: '2021',
+        year: 'Eté 2022',
         titre: 'Manutention Si-Chim',
         durée: '2 mois',
-        détails: 'remplissage de bidon, mise en carton ect...',
+        détails: 'remplissage de bidon, mise en carton, etiquettage et filmage de palette',
     },
     {
       year: '2022',
-      titre: 'Bac',
+      titre: 'Bac STMG - Lycée Paul Doumer',
       durée: '2019/2022',
       détails: 'Bac obtenu avec la mention bien',
     }

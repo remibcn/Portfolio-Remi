@@ -18,7 +18,7 @@ const Main = () => {
               sequence={[
                 'un developpeur web',
                 1000,
-                "a la recherche d'une alternance",
+                "à la recherche d'une alternance",
                 2000,
               ]}
               wrapper='div'
@@ -28,9 +28,12 @@ const Main = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaTwitter className='cursor-pointer 'size={20}/>
+            <a href="https://www.linkedin.com/in/r%C3%A9mi-boccone/">
             <FaLinkedin className='cursor-pointer' size={20}/>
+            </a>
+            <a href="https://www.instagram.com/remibcn/">
             <FaInstagram className='cursor-pointer' size={20}/>
+            </a>
           </div>
         </div>
       </div>

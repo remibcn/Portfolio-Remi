@@ -11,7 +11,9 @@ const Projects = () => {
         Voici une présentation de mes projets réalisés ou en cours !
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
-        <Projectitems img={Breizh} title='Breizh' link/>
+      <a href="http://breizh-littoral.surge.sh">
+        <Projectitems img={Breizh} title='Breizh'/>
+      </a>
         <Projectitems img={Chargement} title='En cours'/>
         <Projectitems img={Chargement} title='En cours'/>
         <Projectitems img={Chargement} title='En cours'/>
